@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    font-size: 1.5vw;
+}
+
+#logo {
+    color: white; 
+    margin: 0px;
+    padding: 8px;
+    font-family: "Fredoka One", sans-serif;
+    width: 16%;
+    text-shadow:
+        1px 1px 0px black,    /* Bottom-right shadow */
+        -1px 1px 0px black,   /* Bottom-left shadow */
+        1px -1px 0px black,   /* Top-right shadow */
+        -1px -1px 0px black;  /* Top-left shadow */
+}
+
+ul {
+    margin: 0px;
+}
+
+body > header {
+    background-color: orange;
+    display: flex;
+    height: 12vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#nav-ul {
+    display: flex; 
+}
+
+#nav-ul > li {    
+    padding: 8px;    
+    margin: 16px; }
+
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbutton {
+    color: white;
+    text-decoration: none;
+    padding: 12px;    
+    border: 1px solid white;    
+    border-radius: 10%;
+}
+
+body > main article {
+    width: 80%;
+    margin: auto;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-around ;
+}
+
+#main-conten > div {
+    width: 80%;
+    
+}
+
+form {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+body > footer {
+    background-color: orange; 
+    justify-content: center; 
+}
+
+img {
+    border-radius: 50%;
+}
+
+#footer-ul {
+    display: flex;
+    justify-content: space-between;  /* Distribute items evenly with space between them */
+    width: 100%;  /* Ensure the footer ul spans the full width */
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#footer-ul > div {
+    flex: 1;  /* Ensure each div takes up equal space */
+    text-align: center;  /* Center the text within each div */
+}
+
+#footer-ul > div > li {
+    padding: 5px 0;  /* Add some space between the list items */
+}
+
+#footer-ul > div > li > a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#footer-ul > div > li > a:hover {
+    color: #000;
+}
+
+aside h2 {
+    font-size: 1.4vw; 
+    margin-left: 1px; 
+}
+
+aside ul li {
+    font-size: 1.4vw;
+    margin-left: 1px; 
+}
